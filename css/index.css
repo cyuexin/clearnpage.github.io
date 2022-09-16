@@ -1,0 +1,32 @@
+.glyphicon-qrcode{
+    font-size: 20px;
+    color: orange;
+}
+.input-group{
+    width: 380px;
+}
+
+/* 品牌图标的设置 */
+.navbar-brand{
+    /* 固定宽度给logo */
+    width: 50px;
+    /* 内边距为0时, logo最大 */
+    padding: 5px;
+}
+/* 图片自适应容器大小 */
+.auto-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 在移动端, 让平台图标 */
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+        margin-left: 10px;
+    }
+
+    .input-group.navbar-right.navbar-btn{
+        width: 100%;
+    }
+}
